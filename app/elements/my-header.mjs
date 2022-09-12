@@ -1,10 +1,9 @@
 export default function MyHeader({ html }) {
   return html`
       <header>
-        <h1>Header</h1>
         <nav>
-          <a href=/>home</a>
-          <a href=/about>about</a>
+          <a href=/><span class="font-mono font-light inline-flex items-center pr-3 pl-3 border-solid border1 border-lilac radius1">Home</span></a>
+          <a href=/about><span class="font-mono font-light inline-flex items-center pr-3 pl-3 border-solid border1 border-lilac radius1">About</span></a>
         </nav>
       </header>
     `;
