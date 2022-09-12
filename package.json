@@ -1,9 +1,11 @@
 {
   "scripts": {
     "start": "sandbox",
-    "lint": "eslint ./app/**/*.mjs --fix"
+    "lint": "eslint ./app/**/*.mjs --fix",
+    "deploy:dry": "arc deploy --dry-run"
   },
   "devDependencies": {
+    "@architect/architect": "^10.6.0",
     "@architect/sandbox": "latest",
     "eslint": "latest"
   },
